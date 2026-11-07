@@ -1,0 +1,9 @@
+EUR/USD Quant Analyzer — modo sin API
+
+Archivo: euroanalizador.html
+
+Abre el HTML en un navegador moderno. No requiere API ni servidor para el cálculo de riesgo, los niveles manuales, el diario local y el backtest de CSV.
+
+IMPORTANTE: sin datos de mercado actuales, el archivo no puede generar señales en tiempo real ni recomendar una hora real para comprar/vender. Para probar la estrategia importa un CSV con columnas open, high, low, close y opcionalmente time/date. Se recomienda datos históricos de EUR/USD exportados de una plataforma confiable.
+
+El backtest es educativo y simplificado; no incluye modelado completo de spread variable, slippage, swaps, latencia o ejecución real. El diario calcula P/L bruto aproximado para una cuenta USD y lote estándar; no incluye comisiones ni swaps. No garantiza rentabilidad.
